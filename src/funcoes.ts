@@ -21,3 +21,10 @@
     function cadastro(nome:string,sobrenome:string,telefone?:number,endereco = "Brasil"):void{
         console.log(nome,sobrenome,telefone,endereco);
     }
+
+    //rest
+
+    function Vendas(...produtos:number[]){
+        console.log(`Hoje voçê fez ${produtos.length} vendas`);
+    }
+    Vendas(10,32,4,3,1,22,33,44,51,3123);
